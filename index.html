@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADE</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <table border="2" width="100%" cellpadding="15" cellspacing="2">
+
+        <tr>
+            <th>SUBJEK</th>
+            <th>MARKAH</th>
+            <th>GRED</th>
+        </tr>
+
+        <tr align="center">
+            <td>BM1</td>
+            <td><input type="number" name="mark1" id="mark1" min="0" max="100" onchange="gred(this.value, 'bm1');"></td>
+            <td id="bm1"></td>
+        </tr>
+
+        <tr align="center">
+            <td>BM2</td>
+            <td><input type="number" name="mark2" id="mark2" min="0" max="100" onchange="gred(this.value, 'bm2');"></td>
+            <td id="bm2"></td>
+        </tr>
+
+        <tr align="center">
+            <td>BI</td>
+            <td><input type="number" name="mark3" id="mark3" min="0" max="100" onchange="gred(this.value, 'bi');"></td>
+            <td id="bi"></td>
+        </tr>
+
+        <tr align="center">
+            <td>SAINS</td>
+            <td><input type="number" name="mark4" id="mark4" min="0" max="100" onchange="gred(this.value, 'science');"></td>
+            <td id="science"></td>
+        </tr>
+
+        <tr align="center">
+            <td>MATEMATIK</td>
+            <td><input type="number" name="mark5" id="mark5" min="0" max="100" onchange="gred(this.value, 'math');"></td>
+            <td id="math"></td>
+        </tr>
+
+    </table>
+</body>
+
+</html>
